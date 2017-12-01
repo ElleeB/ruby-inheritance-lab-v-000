@@ -8,7 +8,9 @@ class Teacher < User
   attr_accessor :first_name, :last_name
 
   def teach
-    KNOWLEDGE.each{|string| puts string}
+    count = 0
+    puts KNOWLEDGE["#{count}"]
+    count += 1
   end
 
 end
