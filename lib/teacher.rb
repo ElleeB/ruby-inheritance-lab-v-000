@@ -9,7 +9,7 @@ class Teacher < User
 
   def teach
     count = 0
-    puts KNOWLEDGE["#{count}"]
+    puts KNOWLEDGE["#{count.to_i}"]
     count += 1
   end
 
