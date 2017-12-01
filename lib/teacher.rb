@@ -11,5 +11,4 @@ class Teacher < User
     KNOWLEDGE
   end
 
-
 end
